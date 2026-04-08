@@ -1,0 +1,39 @@
+=== EDA INSIGHT REPORT ===
+
+1) Data quality
+- Total rows: 8760
+- Total missing values: 0
+- Duplicate rows: 0
+- Negative turbidity_final values: 11
+
+2) Final turbidity: strongest influencing factors (correlation)
+- Positive: turbidity_after_sedimentation (corr=0.997)
+- Positive: turbidity_after_coagulation (corr=0.992)
+- Positive: turbidity_after_filtration (corr=0.877)
+- Positive: turbidity_raw (corr=0.831)
+- Positive: TSS_mgL (corr=0.823)
+- Negative: compliance_flag (corr=-0.701)
+
+3) Stage-wise turbidity change (average)
+- Raw -> Coagulation: 22.866 -> 15.708 | drop=7.158 (31.30%)
+- Coagulation -> Sedimentation: 15.708 -> 9.357 | drop=6.352 (40.44%)
+- Sedimentation -> Filtration: 9.357 -> 3.082 | drop=6.275 (67.06%)
+- Filtration -> Final: 3.082 -> 9.360 | drop=-6.278 (-203.71%)
+- Raw -> Final: 22.866 -> 9.360 | drop=13.506 (59.07%)
+- Overall (Raw -> Final): 22.866 -> 9.360 | drop=13.506 (59.07%)
+
+4) Scenario impact on final turbidity (higher is worse)
+- storm_event: 22.499
+- under_dose: 15.126
+- normal: 6.620
+- process_upset: 6.335
+
+5) Seasonal impact on final turbidity (higher is worse)
+- Monsoon: 11.794
+- Summer: 10.827
+- Winter: 5.470
+
+6) Practical conclusion
+- Final turbidity is most dependent on downstream stage outputs, especially post-sedimentation and post-coagulation.
+- Upstream load indicators (raw turbidity, TSS, DOC) also strongly affect final turbidity.
+- Treatment train substantially reduces turbidity overall; scenario upsets and seasonal conditions still shift final outcomes.

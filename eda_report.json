@@ -1,0 +1,1112 @@
+{
+  "dataset_overview": {
+    "file": "updated_turbidity_dataset.csv",
+    "rows": 8760,
+    "columns": 24,
+    "column_names": [
+      "timestamp",
+      "turbidity_raw",
+      "pH",
+      "alkalinity_mgL",
+      "hardness_mgL",
+      "temperature_C",
+      "flow_rate_m3s",
+      "coagulant_dose_mgL",
+      "turbidity_after_coagulation",
+      "turbidity_after_sedimentation",
+      "turbidity_after_filtration",
+      "turbidity_final",
+      "compliance_flag",
+      "chemical_cost",
+      "energy_consumption_kWh",
+      "total_cost",
+      "scenario_type",
+      "season",
+      "rainfall_intensity_mm_hr",
+      "TSS_mgL",
+      "DOC_mgL",
+      "conductivity_uScm",
+      "mixing_intensity_G_s",
+      "flocculation_time_min"
+    ],
+    "memory_mb": 2.868
+  },
+  "data_types": {
+    "timestamp": "object",
+    "turbidity_raw": "float64",
+    "pH": "float64",
+    "alkalinity_mgL": "float64",
+    "hardness_mgL": "float64",
+    "temperature_C": "float64",
+    "flow_rate_m3s": "float64",
+    "coagulant_dose_mgL": "float64",
+    "turbidity_after_coagulation": "float64",
+    "turbidity_after_sedimentation": "float64",
+    "turbidity_after_filtration": "float64",
+    "turbidity_final": "float64",
+    "compliance_flag": "int64",
+    "chemical_cost": "float64",
+    "energy_consumption_kWh": "float64",
+    "total_cost": "float64",
+    "scenario_type": "object",
+    "season": "object",
+    "rainfall_intensity_mm_hr": "float64",
+    "TSS_mgL": "float64",
+    "DOC_mgL": "float64",
+    "conductivity_uScm": "float64",
+    "mixing_intensity_G_s": "float64",
+    "flocculation_time_min": "float64"
+  },
+  "missing_values": {
+    "timestamp": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "turbidity_raw": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "pH": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "alkalinity_mgL": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "hardness_mgL": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "temperature_C": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "flow_rate_m3s": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "coagulant_dose_mgL": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "turbidity_after_coagulation": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "turbidity_after_sedimentation": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "turbidity_after_filtration": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "turbidity_final": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "compliance_flag": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "chemical_cost": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "energy_consumption_kWh": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "total_cost": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "scenario_type": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "season": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "rainfall_intensity_mm_hr": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "TSS_mgL": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "DOC_mgL": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "conductivity_uScm": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "mixing_intensity_G_s": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "flocculation_time_min": {
+      "missing_count": 0,
+      "missing_pct": 0.0
+    }
+  },
+  "duplicates": {
+    "duplicate_rows": 0,
+    "duplicate_pct": 0.0
+  },
+  "column_groups": {
+    "numeric_columns": [
+      "turbidity_raw",
+      "pH",
+      "alkalinity_mgL",
+      "hardness_mgL",
+      "temperature_C",
+      "flow_rate_m3s",
+      "coagulant_dose_mgL",
+      "turbidity_after_coagulation",
+      "turbidity_after_sedimentation",
+      "turbidity_after_filtration",
+      "turbidity_final",
+      "compliance_flag",
+      "chemical_cost",
+      "energy_consumption_kWh",
+      "total_cost",
+      "rainfall_intensity_mm_hr",
+      "TSS_mgL",
+      "DOC_mgL",
+      "conductivity_uScm",
+      "mixing_intensity_G_s",
+      "flocculation_time_min"
+    ],
+    "categorical_columns": [
+      "timestamp",
+      "scenario_type",
+      "season"
+    ]
+  },
+  "numeric_summary": {
+    "turbidity_raw": {
+      "count": 8760.0,
+      "mean": 22.866072374429223,
+      "std": 17.618148402468993,
+      "min": 1.0,
+      "p01": 1.82998,
+      "p05": 4.487550000000001,
+      "p25": 10.547,
+      "p50_median": 19.655,
+      "p75": 27.385,
+      "p95": 59.74399999999997,
+      "p99": 88.36747999999992,
+      "max": 134.202,
+      "skew": 1.9172234412581415,
+      "kurtosis": 4.899337483678149
+    },
+    "pH": {
+      "count": 8760.0,
+      "mean": 7.49646392694064,
+      "std": 0.25786160698565164,
+      "min": 6.522,
+      "p01": 6.84918,
+      "p05": 7.03995,
+      "p25": 7.334,
+      "p50_median": 7.511,
+      "p75": 7.669,
+      "p95": 7.9,
+      "p99": 8.05141,
+      "max": 8.294,
+      "skew": -0.27522503969082324,
+      "kurtosis": 0.10327253635397637
+    },
+    "alkalinity_mgL": {
+      "count": 8760.0,
+      "mean": 119.24717922374428,
+      "std": 12.01428527019225,
+      "min": 88.15,
+      "p01": 95.1236,
+      "p05": 102.1395,
+      "p25": 110.74,
+      "p50_median": 117.64,
+      "p75": 126.88,
+      "p95": 141.33149999999998,
+      "p99": 152.95229999999998,
+      "max": 157.93,
+      "skew": 0.5170649047573593,
+      "kurtosis": 0.1532405061369655
+    },
+    "hardness_mgL": {
+      "count": 8760.0,
+      "mean": 166.19595433789954,
+      "std": 26.769171101375218,
+      "min": 97.04,
+      "p01": 107.8536,
+      "p05": 122.7385,
+      "p25": 147.4175,
+      "p50_median": 165.95,
+      "p75": 182.66,
+      "p95": 212.81099999999998,
+      "p99": 231.73809999999995,
+      "max": 257.71,
+      "skew": 0.18655211234719968,
+      "kurtosis": -0.00621954640765221
+    },
+    "temperature_C": {
+      "count": 8760.0,
+      "mean": 19.997174657534245,
+      "std": 7.0369980166301795,
+      "min": 10.0,
+      "p01": 10.0,
+      "p05": 10.0,
+      "p25": 12.94,
+      "p50_median": 20.01,
+      "p75": 27.03,
+      "p95": 30.0,
+      "p99": 30.0,
+      "max": 30.0,
+      "skew": 0.0027705444812895666,
+      "kurtosis": -1.4997775471807875
+    },
+    "flow_rate_m3s": {
+      "count": 8760.0,
+      "mean": 1.4715556392694065,
+      "std": 0.22489535728571622,
+      "min": 0.7876,
+      "p01": 0.955695,
+      "p05": 1.0947,
+      "p25": 1.31635,
+      "p50_median": 1.4781,
+      "p75": 1.632075,
+      "p95": 1.829305,
+      "p99": 1.975241,
+      "max": 2.2381,
+      "skew": -0.042992575488801914,
+      "kurtosis": -0.19363265924440531
+    },
+    "coagulant_dose_mgL": {
+      "count": 8760.0,
+      "mean": 11.326006506849314,
+      "std": 7.291013948244491,
+      "min": 5.0,
+      "p01": 5.0,
+      "p05": 5.0,
+      "p25": 5.096,
+      "p50_median": 9.646,
+      "p75": 14.209,
+      "p95": 25.218399999999935,
+      "p99": 39.99852999999995,
+      "max": 60.0,
+      "skew": 2.1417284227292948,
+      "kurtosis": 6.660212884475112
+    },
+    "turbidity_after_coagulation": {
+      "count": 8760.0,
+      "mean": 15.708390495318655,
+      "std": 11.60972226935425,
+      "min": 0.7718075867376062,
+      "p01": 1.526600096367633,
+      "p05": 3.632702883395867,
+      "p25": 7.949277083004285,
+      "p50_median": 13.156362213833988,
+      "p75": 20.097441975553483,
+      "p95": 38.86268655154421,
+      "p99": 62.363541334396686,
+      "max": 110.62335337800698,
+      "skew": 2.205950945006787,
+      "kurtosis": 7.280525882483665
+    },
+    "turbidity_after_sedimentation": {
+      "count": 8760.0,
+      "mean": 9.356547987858404,
+      "std": 6.43557263139611,
+      "min": 0.4742408329153054,
+      "p01": 0.9760387991239144,
+      "p05": 2.2814942552168866,
+      "p25": 4.961418954231712,
+      "p50_median": 8.055894080246397,
+      "p75": 11.879543336951219,
+      "p95": 22.63246180490761,
+      "p99": 34.22486797714862,
+      "max": 52.35101201721259,
+      "skew": 1.8808527049907835,
+      "kurtosis": 5.125812878104189
+    },
+    "turbidity_after_filtration": {
+      "count": 8760.0,
+      "mean": 3.0817440639269407,
+      "std": 3.3033436398787246,
+      "min": 0.01,
+      "p01": 0.01,
+      "p05": 0.3309000000000001,
+      "p25": 1.134,
+      "p50_median": 1.781,
+      "p75": 4.1579999999999995,
+      "p95": 10.226899999999988,
+      "p99": 15.44964,
+      "max": 37.103,
+      "skew": 2.236864754522857,
+      "kurtosis": 6.450483771535603
+    },
+    "turbidity_final": {
+      "count": 8760.0,
+      "mean": 9.359615351915853,
+      "std": 6.449572614849613,
+      "min": -0.4441194142035634,
+      "p01": 0.8986999340711732,
+      "p05": 2.2177994847608673,
+      "p25": 4.9736131779194,
+      "p50_median": 8.085702790198416,
+      "p75": 11.917585735281984,
+      "p95": 22.48202781287485,
+      "p99": 34.29607372940651,
+      "max": 51.92428371215015,
+      "skew": 1.8633974371111792,
+      "kurtosis": 5.054255067897263
+    },
+    "compliance_flag": {
+      "count": 8760.0,
+      "mean": 0.9478310502283105,
+      "std": 0.22238029537384899,
+      "min": 0.0,
+      "p01": 0.0,
+      "p05": 0.0,
+      "p25": 1.0,
+      "p50_median": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "p99": 1.0,
+      "max": 1.0,
+      "skew": -4.028534249009119,
+      "kurtosis": 14.232337535523921
+    },
+    "chemical_cost": {
+      "count": 8760.0,
+      "mean": 0.007211038812785388,
+      "std": 0.004819234525513025,
+      "min": 0.0017,
+      "p01": 0.0023,
+      "p05": 0.0027,
+      "p25": 0.0036,
+      "p50_median": 0.006,
+      "p75": 0.0092,
+      "p95": 0.0161,
+      "p99": 0.026240999999999987,
+      "max": 0.0437,
+      "skew": 2.1938952414419557,
+      "kurtosis": 7.319186934419343
+    },
+    "energy_consumption_kWh": {
+      "count": 8760.0,
+      "mean": 0.3678890753424658,
+      "std": 0.056223464306601745,
+      "min": 0.1969,
+      "p01": 0.238918,
+      "p05": 0.2737,
+      "p25": 0.329075,
+      "p50_median": 0.3695,
+      "p75": 0.40802499999999997,
+      "p95": 0.4573,
+      "p99": 0.4938,
+      "max": 0.5595,
+      "skew": -0.043009444439221466,
+      "kurtosis": -0.19370762294361388
+    },
+    "total_cost": {
+      "count": 8760.0,
+      "mean": 0.37509988584474885,
+      "std": 0.05754544209701267,
+      "min": 0.1986,
+      "p01": 0.242559,
+      "p05": 0.278695,
+      "p25": 0.335475,
+      "p50_median": 0.3766,
+      "p75": 0.4162,
+      "p95": 0.46700499999999995,
+      "p99": 0.5033639999999999,
+      "max": 0.5666,
+      "skew": -0.050931955369635185,
+      "kurtosis": -0.21965572346278517
+    },
+    "rainfall_intensity_mm_hr": {
+      "count": 8760.0,
+      "mean": 1.7783413242009134,
+      "std": 7.217687888065736,
+      "min": 0.0,
+      "p01": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50_median": 0.0,
+      "p75": 0.0,
+      "p95": 13.13349999999995,
+      "p99": 39.540499999999994,
+      "max": 78.95,
+      "skew": 6.402175994855937,
+      "kurtosis": 49.733811225383654
+    },
+    "TSS_mgL": {
+      "count": 8760.0,
+      "mean": 50.43855593607306,
+      "std": 38.95489035177809,
+      "min": 5.0,
+      "p01": 5.0,
+      "p05": 8.467500000000003,
+      "p25": 23.7675,
+      "p50_median": 43.144999999999996,
+      "p75": 61.3725,
+      "p95": 133.03099999999998,
+      "p99": 195.54669999999987,
+      "max": 300.0,
+      "skew": 1.893903012927769,
+      "kurtosis": 4.795499387609206
+    },
+    "DOC_mgL": {
+      "count": 8760.0,
+      "mean": 3.8101666666666665,
+      "std": 1.4995985822306377,
+      "min": 1.0,
+      "p01": 1.56,
+      "p05": 2.04,
+      "p25": 2.83,
+      "p50_median": 3.53,
+      "p75": 4.34,
+      "p95": 6.9,
+      "p99": 9.25,
+      "max": 12.8,
+      "skew": 1.6418218159243312,
+      "kurtosis": 4.017426711238671
+    },
+    "conductivity_uScm": {
+      "count": 8760.0,
+      "mean": 315.0918105022831,
+      "std": 49.22809780714615,
+      "min": 190.04,
+      "p01": 206.68540000000002,
+      "p05": 224.89,
+      "p25": 284.065,
+      "p50_median": 319.955,
+      "p75": 346.8375,
+      "p95": 390.251,
+      "p99": 419.89349999999996,
+      "max": 466.18,
+      "skew": -0.22914334311329804,
+      "kurtosis": -0.2954072119879174
+    },
+    "mixing_intensity_G_s": {
+      "count": 8760.0,
+      "mean": 732.6538573059362,
+      "std": 45.640829098309524,
+      "min": 573.97,
+      "p01": 621.4984999999999,
+      "p05": 656.919,
+      "p25": 702.2275,
+      "p50_median": 732.885,
+      "p75": 763.6524999999999,
+      "p95": 806.5329999999999,
+      "p99": 837.51,
+      "max": 900.0,
+      "skew": -0.06481729645949842,
+      "kurtosis": -0.024546893202332942
+    },
+    "flocculation_time_min": {
+      "count": 8760.0,
+      "mean": 24.928144977168948,
+      "std": 2.871960611271972,
+      "min": 15.0,
+      "p01": 18.93,
+      "p05": 20.54,
+      "p25": 23.02,
+      "p50_median": 24.78,
+      "p75": 26.6325,
+      "p95": 29.79049999999999,
+      "p99": 33.11,
+      "max": 38.95,
+      "skew": 0.43998672106646514,
+      "kurtosis": 0.8076834254172387
+    }
+  },
+  "categorical_summary": {
+    "timestamp": {
+      "unique_values": 8760,
+      "top_10_values": [
+        {
+          "value": "1/1/2020 0:00",
+          "count": 1,
+          "pct": 0.011
+        },
+        {
+          "value": "1/1/2020 1:00",
+          "count": 1,
+          "pct": 0.011
+        },
+        {
+          "value": "1/1/2020 2:00",
+          "count": 1,
+          "pct": 0.011
+        },
+        {
+          "value": "1/1/2020 3:00",
+          "count": 1,
+          "pct": 0.011
+        },
+        {
+          "value": "1/1/2020 4:00",
+          "count": 1,
+          "pct": 0.011
+        },
+        {
+          "value": "1/1/2020 5:00",
+          "count": 1,
+          "pct": 0.011
+        },
+        {
+          "value": "1/1/2020 6:00",
+          "count": 1,
+          "pct": 0.011
+        },
+        {
+          "value": "1/1/2020 7:00",
+          "count": 1,
+          "pct": 0.011
+        },
+        {
+          "value": "1/1/2020 8:00",
+          "count": 1,
+          "pct": 0.011
+        },
+        {
+          "value": "1/1/2020 9:00",
+          "count": 1,
+          "pct": 0.011
+        }
+      ]
+    },
+    "scenario_type": {
+      "unique_values": 4,
+      "top_10_values": [
+        {
+          "value": "normal",
+          "count": 5908,
+          "pct": 67.443
+        },
+        {
+          "value": "under_dose",
+          "count": 2377,
+          "pct": 27.135
+        },
+        {
+          "value": "storm_event",
+          "count": 242,
+          "pct": 2.763
+        },
+        {
+          "value": "process_upset",
+          "count": 233,
+          "pct": 2.66
+        }
+      ]
+    },
+    "season": {
+      "unique_values": 3,
+      "top_10_values": [
+        {
+          "value": "Winter",
+          "count": 2928,
+          "pct": 33.425
+        },
+        {
+          "value": "Monsoon",
+          "count": 2928,
+          "pct": 33.425
+        },
+        {
+          "value": "Summer",
+          "count": 2904,
+          "pct": 33.151
+        }
+      ]
+    }
+  },
+  "outlier_analysis_iqr": {
+    "turbidity_raw": {
+      "q1": 10.547,
+      "q3": 27.385,
+      "iqr": 16.838,
+      "lower_bound": -14.71,
+      "upper_bound": 52.642,
+      "outlier_count_iqr": 617,
+      "outlier_pct_iqr": 7.043
+    },
+    "pH": {
+      "q1": 7.334,
+      "q3": 7.669,
+      "iqr": 0.33499999999999996,
+      "lower_bound": 6.8315,
+      "upper_bound": 8.1715,
+      "outlier_count_iqr": 86,
+      "outlier_pct_iqr": 0.982
+    },
+    "alkalinity_mgL": {
+      "q1": 110.74,
+      "q3": 126.88,
+      "iqr": 16.14,
+      "lower_bound": 86.53,
+      "upper_bound": 151.09,
+      "outlier_count_iqr": 141,
+      "outlier_pct_iqr": 1.61
+    },
+    "hardness_mgL": {
+      "q1": 147.4175,
+      "q3": 182.66,
+      "iqr": 35.24250000000001,
+      "lower_bound": 94.55374999999998,
+      "upper_bound": 235.52375,
+      "outlier_count_iqr": 78,
+      "outlier_pct_iqr": 0.89
+    },
+    "temperature_C": {
+      "q1": 12.94,
+      "q3": 27.03,
+      "iqr": 14.090000000000002,
+      "lower_bound": -8.195000000000002,
+      "upper_bound": 48.165000000000006,
+      "outlier_count_iqr": 0,
+      "outlier_pct_iqr": 0.0
+    },
+    "flow_rate_m3s": {
+      "q1": 1.31635,
+      "q3": 1.632075,
+      "iqr": 0.31572500000000003,
+      "lower_bound": 0.8427624999999999,
+      "upper_bound": 2.1056625,
+      "outlier_count_iqr": 29,
+      "outlier_pct_iqr": 0.331
+    },
+    "coagulant_dose_mgL": {
+      "q1": 5.096,
+      "q3": 14.209,
+      "iqr": 9.113,
+      "lower_bound": -8.5735,
+      "upper_bound": 27.8785,
+      "outlier_count_iqr": 339,
+      "outlier_pct_iqr": 3.87
+    },
+    "turbidity_after_coagulation": {
+      "q1": 7.949277083004285,
+      "q3": 20.097441975553483,
+      "iqr": 12.148164892549199,
+      "lower_bound": -10.272970255819514,
+      "upper_bound": 38.319689314377285,
+      "outlier_count_iqr": 458,
+      "outlier_pct_iqr": 5.228
+    },
+    "turbidity_after_sedimentation": {
+      "q1": 4.961418954231712,
+      "q3": 11.879543336951219,
+      "iqr": 6.9181243827195065,
+      "lower_bound": -5.415767619847548,
+      "upper_bound": 22.25672991103048,
+      "outlier_count_iqr": 459,
+      "outlier_pct_iqr": 5.24
+    },
+    "turbidity_after_filtration": {
+      "q1": 1.134,
+      "q3": 4.1579999999999995,
+      "iqr": 3.0239999999999996,
+      "lower_bound": -3.4019999999999997,
+      "upper_bound": 8.693999999999999,
+      "outlier_count_iqr": 653,
+      "outlier_pct_iqr": 7.454
+    },
+    "turbidity_final": {
+      "q1": 4.9736131779194,
+      "q3": 11.917585735281984,
+      "iqr": 6.943972557362583,
+      "lower_bound": -5.442345658124474,
+      "upper_bound": 22.33354457132586,
+      "outlier_count_iqr": 447,
+      "outlier_pct_iqr": 5.103
+    },
+    "compliance_flag": {
+      "q1": 1.0,
+      "q3": 1.0,
+      "iqr": 0.0,
+      "lower_bound": 1.0,
+      "upper_bound": 1.0,
+      "outlier_count_iqr": 457,
+      "outlier_pct_iqr": 5.217
+    },
+    "chemical_cost": {
+      "q1": 0.0036,
+      "q3": 0.0092,
+      "iqr": 0.0056,
+      "lower_bound": -0.0048,
+      "upper_bound": 0.017599999999999998,
+      "outlier_count_iqr": 347,
+      "outlier_pct_iqr": 3.961
+    },
+    "energy_consumption_kWh": {
+      "q1": 0.329075,
+      "q3": 0.40802499999999997,
+      "iqr": 0.07894999999999996,
+      "lower_bound": 0.21065000000000006,
+      "upper_bound": 0.5264499999999999,
+      "outlier_count_iqr": 29,
+      "outlier_pct_iqr": 0.331
+    },
+    "total_cost": {
+      "q1": 0.335475,
+      "q3": 0.4162,
+      "iqr": 0.08072499999999999,
+      "lower_bound": 0.21438750000000004,
+      "upper_bound": 0.5372875,
+      "outlier_count_iqr": 29,
+      "outlier_pct_iqr": 0.331
+    },
+    "rainfall_intensity_mm_hr": {
+      "q1": 0.0,
+      "q3": 0.0,
+      "iqr": 0.0,
+      "lower_bound": 0.0,
+      "upper_bound": 0.0,
+      "outlier_count_iqr": 962,
+      "outlier_pct_iqr": 10.982
+    },
+    "TSS_mgL": {
+      "q1": 23.7675,
+      "q3": 61.3725,
+      "iqr": 37.605000000000004,
+      "lower_bound": -32.64000000000001,
+      "upper_bound": 117.78,
+      "outlier_count_iqr": 597,
+      "outlier_pct_iqr": 6.815
+    },
+    "DOC_mgL": {
+      "q1": 2.83,
+      "q3": 4.34,
+      "iqr": 1.5099999999999998,
+      "lower_bound": 0.5650000000000004,
+      "upper_bound": 6.6049999999999995,
+      "outlier_count_iqr": 518,
+      "outlier_pct_iqr": 5.913
+    },
+    "conductivity_uScm": {
+      "q1": 284.065,
+      "q3": 346.8375,
+      "iqr": 62.77249999999998,
+      "lower_bound": 189.90625000000003,
+      "upper_bound": 440.9962499999999,
+      "outlier_count_iqr": 35,
+      "outlier_pct_iqr": 0.4
+    },
+    "mixing_intensity_G_s": {
+      "q1": 702.2275,
+      "q3": 763.6524999999999,
+      "iqr": 61.424999999999955,
+      "lower_bound": 610.09,
+      "upper_bound": 855.7899999999998,
+      "outlier_count_iqr": 69,
+      "outlier_pct_iqr": 0.788
+    },
+    "flocculation_time_min": {
+      "q1": 23.02,
+      "q3": 26.6325,
+      "iqr": 3.6125000000000007,
+      "lower_bound": 17.60125,
+      "upper_bound": 32.05125,
+      "outlier_count_iqr": 168,
+      "outlier_pct_iqr": 1.918
+    }
+  },
+  "top_correlations": [
+    {
+      "col_a": "flow_rate_m3s",
+      "col_b": "energy_consumption_kWh",
+      "correlation": 1.0
+    },
+    {
+      "col_a": "turbidity_after_sedimentation",
+      "col_b": "turbidity_final",
+      "correlation": 0.997
+    },
+    {
+      "col_a": "flow_rate_m3s",
+      "col_b": "total_cost",
+      "correlation": 0.9967
+    },
+    {
+      "col_a": "energy_consumption_kWh",
+      "col_b": "total_cost",
+      "correlation": 0.9967
+    },
+    {
+      "col_a": "turbidity_after_coagulation",
+      "col_b": "turbidity_after_sedimentation",
+      "correlation": 0.9946
+    },
+    {
+      "col_a": "turbidity_raw",
+      "col_b": "TSS_mgL",
+      "correlation": 0.9921
+    },
+    {
+      "col_a": "turbidity_after_coagulation",
+      "col_b": "turbidity_final",
+      "correlation": 0.9917
+    },
+    {
+      "col_a": "coagulant_dose_mgL",
+      "col_b": "chemical_cost",
+      "correlation": 0.9659
+    },
+    {
+      "col_a": "turbidity_raw",
+      "col_b": "DOC_mgL",
+      "correlation": 0.9432
+    },
+    {
+      "col_a": "TSS_mgL",
+      "col_b": "DOC_mgL",
+      "correlation": 0.9349
+    },
+    {
+      "col_a": "turbidity_after_sedimentation",
+      "col_b": "turbidity_after_filtration",
+      "correlation": 0.8797
+    },
+    {
+      "col_a": "turbidity_after_filtration",
+      "col_b": "turbidity_final",
+      "correlation": 0.877
+    },
+    {
+      "col_a": "turbidity_after_coagulation",
+      "col_b": "turbidity_after_filtration",
+      "correlation": 0.8762
+    },
+    {
+      "col_a": "turbidity_raw",
+      "col_b": "turbidity_after_coagulation",
+      "correlation": 0.8502
+    },
+    {
+      "col_a": "turbidity_after_coagulation",
+      "col_b": "TSS_mgL",
+      "correlation": 0.8428
+    }
+  ],
+  "target_candidate_analysis": {
+    "turbidity_raw": [
+      {
+        "feature": "TSS_mgL",
+        "corr_with_target": 0.9921
+      },
+      {
+        "feature": "DOC_mgL",
+        "corr_with_target": 0.9432
+      },
+      {
+        "feature": "turbidity_after_coagulation",
+        "corr_with_target": 0.8502
+      },
+      {
+        "feature": "turbidity_after_sedimentation",
+        "corr_with_target": 0.8333
+      },
+      {
+        "feature": "turbidity_final",
+        "corr_with_target": 0.831
+      },
+      {
+        "feature": "flocculation_time_min",
+        "corr_with_target": 0.5994
+      },
+      {
+        "feature": "turbidity_after_filtration",
+        "corr_with_target": 0.5501
+      },
+      {
+        "feature": "compliance_flag",
+        "corr_with_target": -0.5192
+      },
+      {
+        "feature": "coagulant_dose_mgL",
+        "corr_with_target": 0.4792
+      },
+      {
+        "feature": "temperature_C",
+        "corr_with_target": 0.4767
+      }
+    ],
+    "turbidity_after_coagulation": [
+      {
+        "feature": "turbidity_after_sedimentation",
+        "corr_with_target": 0.9946
+      },
+      {
+        "feature": "turbidity_final",
+        "corr_with_target": 0.9917
+      },
+      {
+        "feature": "turbidity_after_filtration",
+        "corr_with_target": 0.8762
+      },
+      {
+        "feature": "turbidity_raw",
+        "corr_with_target": 0.8502
+      },
+      {
+        "feature": "TSS_mgL",
+        "corr_with_target": 0.8428
+      },
+      {
+        "feature": "DOC_mgL",
+        "corr_with_target": 0.8014
+      },
+      {
+        "feature": "compliance_flag",
+        "corr_with_target": -0.7211
+      },
+      {
+        "feature": "flocculation_time_min",
+        "corr_with_target": 0.5081
+      },
+      {
+        "feature": "temperature_C",
+        "corr_with_target": 0.4794
+      },
+      {
+        "feature": "rainfall_intensity_mm_hr",
+        "corr_with_target": 0.3321
+      }
+    ],
+    "turbidity_after_sedimentation": [
+      {
+        "feature": "turbidity_final",
+        "corr_with_target": 0.997
+      },
+      {
+        "feature": "turbidity_after_coagulation",
+        "corr_with_target": 0.9946
+      },
+      {
+        "feature": "turbidity_after_filtration",
+        "corr_with_target": 0.8797
+      },
+      {
+        "feature": "turbidity_raw",
+        "corr_with_target": 0.8333
+      },
+      {
+        "feature": "TSS_mgL",
+        "corr_with_target": 0.8258
+      },
+      {
+        "feature": "DOC_mgL",
+        "corr_with_target": 0.7848
+      },
+      {
+        "feature": "compliance_flag",
+        "corr_with_target": -0.7028
+      },
+      {
+        "feature": "temperature_C",
+        "corr_with_target": 0.4998
+      },
+      {
+        "feature": "flocculation_time_min",
+        "corr_with_target": 0.4447
+      },
+      {
+        "feature": "rainfall_intensity_mm_hr",
+        "corr_with_target": 0.3167
+      }
+    ],
+    "turbidity_after_filtration": [
+      {
+        "feature": "turbidity_after_sedimentation",
+        "corr_with_target": 0.8797
+      },
+      {
+        "feature": "turbidity_final",
+        "corr_with_target": 0.877
+      },
+      {
+        "feature": "turbidity_after_coagulation",
+        "corr_with_target": 0.8762
+      },
+      {
+        "feature": "compliance_flag",
+        "corr_with_target": -0.7255
+      },
+      {
+        "feature": "turbidity_raw",
+        "corr_with_target": 0.5501
+      },
+      {
+        "feature": "TSS_mgL",
+        "corr_with_target": 0.545
+      },
+      {
+        "feature": "DOC_mgL",
+        "corr_with_target": 0.5184
+      },
+      {
+        "feature": "coagulant_dose_mgL",
+        "corr_with_target": -0.423
+      },
+      {
+        "feature": "chemical_cost",
+        "corr_with_target": -0.411
+      },
+      {
+        "feature": "flocculation_time_min",
+        "corr_with_target": 0.3374
+      }
+    ],
+    "turbidity_final": [
+      {
+        "feature": "turbidity_after_sedimentation",
+        "corr_with_target": 0.997
+      },
+      {
+        "feature": "turbidity_after_coagulation",
+        "corr_with_target": 0.9917
+      },
+      {
+        "feature": "turbidity_after_filtration",
+        "corr_with_target": 0.877
+      },
+      {
+        "feature": "turbidity_raw",
+        "corr_with_target": 0.831
+      },
+      {
+        "feature": "TSS_mgL",
+        "corr_with_target": 0.8234
+      },
+      {
+        "feature": "DOC_mgL",
+        "corr_with_target": 0.7824
+      },
+      {
+        "feature": "compliance_flag",
+        "corr_with_target": -0.701
+      },
+      {
+        "feature": "temperature_C",
+        "corr_with_target": 0.4991
+      },
+      {
+        "feature": "flocculation_time_min",
+        "corr_with_target": 0.4442
+      },
+      {
+        "feature": "rainfall_intensity_mm_hr",
+        "corr_with_target": 0.3156
+      }
+    ]
+  }
+}
